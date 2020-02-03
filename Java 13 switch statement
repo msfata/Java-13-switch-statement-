@@ -1,0 +1,19 @@
+
+public class SwitchJava13 {
+	public static void main(String[] args) {
+		int n = 9;
+		switch (n) {
+		case 1, 2, 3:
+			System.out.println("first class");
+			break;
+		case 4, 5:
+			System.out.println("upper second");
+			break;
+		case 6, 7:
+			System.out.println("lower second");
+			break;
+		default:
+			System.out.println("third class");
+		}
+	}
+}
